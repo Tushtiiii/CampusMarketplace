@@ -64,17 +64,7 @@ npm install
 
 Create a `.env` file in the server directory:
 ```env
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/campus-marketplace
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-JWT_EXPIRE=7d
-CLIENT_URL=http://localhost:5173
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
-ADMIN_EMAIL=admin@university.edu
-ADMIN_PASSWORD=admin123
+
 ```
 
 Start the backend server:
